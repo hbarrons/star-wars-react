@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,11 +28,39 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.starship-name {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-flow: wrap;
+  border: 1px solid black;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  background-color: darkcyan;
 }
+
+.starship-details {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-flow: wrap;
+  border: 1px solid black;
+  margin: 10px;
+  justify-content: left;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  background-color: darkcyan;
+}
+
+.ships {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
