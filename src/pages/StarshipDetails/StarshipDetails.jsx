@@ -20,7 +20,7 @@ const StarshipDetails = (props) => {
         <div className="starship-details">
           <h3>NAME: {starshipDetails.name}</h3>
           <h3>MODEL: {starshipDetails.model}</h3>
-          <h3>PILOTS: <PilotList/></h3>
+          <h3><PilotList/></h3>
           <br/><br/>
           <Link to='/starship-list' state={{ StarshipList }}>
             <h3 className="return">

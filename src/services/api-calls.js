@@ -9,8 +9,3 @@ export function getStarshipDetails(apiUrl) {
   return fetch(`${apiUrl}`)
   .then(res => res.json())
 }
-
-// export function getPilots(apiUrl) {
-//   return fetch(`${apiUrl}`)
-//   .then(res => res.json())
-// }
