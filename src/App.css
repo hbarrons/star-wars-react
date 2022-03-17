@@ -43,8 +43,8 @@
 }
 
 .starship-details {
-  height: 200px;
-  width: 250px;
+  height: 400px;
+  width: 300px;
   display: flex;
   flex-flow: wrap;
   border: 1px solid black;
@@ -62,5 +62,9 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+.return {
+  width: 200px;
 }
 

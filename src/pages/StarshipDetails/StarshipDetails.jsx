@@ -3,6 +3,7 @@ import { getStarshipDetails } from "../../services/api-calls";
 import StarshipList from "../StarshipList/StarshipList";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
+import PilotList from "../../components/PilotList/PilotList";
 
 const StarshipDetails = (props) => {
   const [starshipDetails, setStarshipDetails] = useState({})
@@ -19,10 +20,12 @@ const StarshipDetails = (props) => {
         <div className="starship-details">
           <h3>NAME: {starshipDetails.name}</h3>
           <h3>MODEL: {starshipDetails.model}</h3>
+          <h3>PILOTS: <PilotList/></h3>
+          <br/><br/>
           <Link to='/starship-list' state={{ StarshipList }}>
-            <div>
+            <h3 className="return">
               RETURN
-            </div>
+            </h3>
           </Link>
         </div>
       :
