@@ -19,8 +19,8 @@ const PilotList = (props) => {
   })
 
   return ( 
-    <>PILOTS:
-      {pilots.lenght !== 0 ?
+    <>
+      {pilots.length !== 0 ?
         <ul>
           {pilots.map(pilot =>
               <li>{pilot.name}</li>
